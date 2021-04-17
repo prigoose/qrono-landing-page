@@ -20,7 +20,7 @@ const HomePage = () => {
   return (
     <>
       <Banner />
-      <TextBlock
+      {/* <TextBlock
         id="about"
         title="Developing a new business is never easy, but Startup is here to help"
         paragraph="With a super-fast Gatsby powered website you have the perfect platform to get your idea off the ground. Its the perfect template to help turn your idea into a reality."
@@ -142,7 +142,7 @@ const HomePage = () => {
         id="contact"
         title="Contact Startup today and see how we can help your business grow"
         subtitle="Every second counts when you're looking to get your new business started. Drop Startup a message and one of our representatives will be in contact"
-      />
+      /> */}
     </>
   )
 }

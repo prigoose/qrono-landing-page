@@ -23,7 +23,7 @@ const Navbar = ({ Logo }) => {
           <span></span>
         </button>
       </div>
-      <ul className={isOpen ? "nav-links show-nav" : "nav-links"}>
+      {/* <ul className={isOpen ? "nav-links show-nav" : "nav-links"}>
         {mainMenuItems.map((item, index) => {
           return (
             <li key={index}>
@@ -31,7 +31,7 @@ const Navbar = ({ Logo }) => {
             </li>
           )
         })}
-      </ul>
+      </ul> */}
     </NavStyles>
   )
 }
